@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./orders.component.css']
 })
 export class OrdersComponent implements OnInit {
-
+  appname : String = 'Best Food!';
   constructor() { }
 
   ngOnInit() {

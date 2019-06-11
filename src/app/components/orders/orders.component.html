@@ -1,3 +1,38 @@
-<p>
-  orders works!
-</p>
+<div class="header-app">
+
+  <h1>Bienvenido a mi app {{appname}}</h1>
+</div>
+
+<div class="buttons-list">
+  <button mat-raised-button color="primary" class="myButton">
+    papa $2000
+  </button>
+  <form method="get" action="">
+      <table class="table table-light">
+
+        <tr>
+          <td>
+            <mat-form-field>
+              <input #orderNumber matInput formControlName="" type="number" required placeholder="Order Number"
+                maxlength="3">
+
+            </mat-form-field>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <mat-form-field>
+              <input #orderNumber matInput formControlName="" type="text" required placeholder="Customers" maxlength="13">
+            </mat-form-field>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button mat-raised-button color="warn" type="submit" id="" class="btn-send">Send</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+</div>
+
+

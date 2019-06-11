@@ -1,0 +1,22 @@
+.header-app{
+  text-align: center;
+}
+
+.buttons-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.myButton{
+  margin: 1rem;
+  padding: 1rem;
+  width: 30%;
+}
+
+.li{
+  text-decoration: underline;
+  padding: 0,3rem 0;
+  list-style: none;
+}
