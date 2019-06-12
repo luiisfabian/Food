@@ -4,8 +4,8 @@
 </div>
 
 <div class="buttons-list">
-  <button mat-raised-button color="primary" class="myButton">
-    papa $2000
+  <button mat-raised-button color="primary" (click)="addProduct(product)" class="myButton" *ngFor="let product of products" >
+    {{product.name}}    {{product.price}}
   </button>
   <form method="get" action="">
       <table class="table table-light">
@@ -34,5 +34,14 @@
       </table>
     </form>
 </div>
-
+<div class="orders">
+  <ul *ngFor="let order of arrayTempProducts" >
+    <li>
+      {{order}}
+    </li>
+    <a href="#" (click)="deleteorderTemp(order)">
+      <mat-icon>delete</mat-icon>
+    </a>
+  </ul>
+</div>
 
