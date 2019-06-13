@@ -1,5 +1,6 @@
+import { FormGroup } from '@angular/forms';
+import { OrdersService } from './../../shated/services/orders.service';
 import { Component, OnInit } from '@angular/core';
-
 @Component({
   selector: 'app-orders',
   templateUrl: './orders.component.html',
@@ -10,7 +11,7 @@ export class OrdersComponent implements OnInit {
   totalPrice = 0;
   arrayTempProducts = [];
 
-  constructor() {}
+  constructor(public ordersService: OrdersService) {}
    products = [
      {
     name: 'fruit',
@@ -55,6 +56,10 @@ export class OrdersComponent implements OnInit {
     if(index > -1)
       this.arrayTempProducts.splice(index, 1);
 
+  }
+
+  onSubmit(){
+    console.log( this.ordersService.myForm.value);
   }
 
 

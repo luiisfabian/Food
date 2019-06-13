@@ -13,6 +13,14 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MaterialModule } from './material.module';
+//formularios
+import {ReactiveFormsModule } from '@angular/forms';
+
+//Firebase
+import { environment } from './../environments/environment';
+import { AngularFireModule } from '@angular/fire';
+import {AngularFirestoreModule} from '@angular/fire/firestore';
+
 
 @NgModule({
   declarations: [
@@ -28,7 +36,10 @@ import { MaterialModule } from './material.module';
     AppRoutingModule,
     LayoutModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    ReactiveFormsModule,
+    AngularFireModule.initializeApp(environment.configFirebase),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
