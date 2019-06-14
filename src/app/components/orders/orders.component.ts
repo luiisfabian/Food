@@ -47,7 +47,7 @@ export class OrdersComponent implements OnInit {
   }
   addProduct(product) {
     console.log(product);
-    this.totalPrice = (this.totalPrice * product.price);
+    this.totalPrice = (this.totalPrice + product.price);
     this.arrayTempProducts.push(product.name);
   }
 
@@ -60,6 +60,17 @@ export class OrdersComponent implements OnInit {
 
   onSubmit(){
     console.log( this.ordersService.myForm.value);
+    this.ordersService.myForm.value.order = this.arrayTempProducts;
+    let data = this.ordersService.myForm.value.order;
+    console.log(data);
+    //llamada al servicio
+
+    this.ordersService.createOrder(data);
+    this.arrayTempProducts= [];
+    this.totalPrice = 0;
+    this.ordersService.myForm.reset();
+
+
   }
 
 

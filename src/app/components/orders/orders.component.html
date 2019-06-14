@@ -13,16 +13,18 @@
         <tr>
           <td>
             <mat-form-field>
-              <input #orderNumber matInput formControlName="" type="number" required placeholder="Order Number"
-                maxlength="3">
-
+              <input #orderNumber matInput  type="number" required placeholder="Order Number"
+                maxlength="3"
+                formControlName="orderNumber"
+                >
             </mat-form-field>
           </td>
         </tr>
         <tr>
           <td>
             <mat-form-field>
-              <input #orderNumber matInput formControlName="" type="text" required placeholder="Customers" maxlength="13">
+              <input #orderNumber matInput  type="text" required placeholder="Customers" maxlength="13"
+              formControlName="customerName">
             </mat-form-field>
           </td>
         </tr>
