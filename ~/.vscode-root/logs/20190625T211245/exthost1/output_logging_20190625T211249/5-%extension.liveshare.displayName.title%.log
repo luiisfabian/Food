@@ -1,0 +1,8 @@
+[Client I] Did not find user settings at </<redacted>/<redacted>.json>
+[Client I] Trace log: /tmp/VSFeedbackVSRTCLogs/20190626_021249_15615151690870_VSCode.log
+[Client V] Downloading remote settings from https://az700632.vo.msecnd.net/pub/VSLiveShare/VSCode/remoteSettings.json
+[Client I] Trace log: /tmp/VSFeedbackVSRTCLogs/20190626_021249_15615151693470_VSCode.log
+[Client I] Extension, IDE, OS : VSLS/1.0.471 VSCode/1.35.0 Linux/4.15.0-51-generic
+[Client I] Passed version check for Linux: found 4.15.0-51-generic
+[Client I] Installing dependencies for Live Share...
+[Client I] Downloading package '.NET Core Runtime 2.1.505 for linux' 

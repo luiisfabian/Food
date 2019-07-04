@@ -1,3 +1,4 @@
+import { ComponentService } from './shated/services/component.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -20,7 +21,23 @@ import {ReactiveFormsModule } from '@angular/forms';
 import { environment } from './../environments/environment';
 import { AngularFireModule } from '@angular/fire';
 import {AngularFirestoreModule} from '@angular/fire/firestore';
+import { NewComponentComponent } from './new-component/new-component.component';
+import * as firebase from 'firebase';
 
+
+
+//Initialize Firebase
+  export const config = {
+  apiKey: "AIzaSyDZU7zMWLN6pskdPn-BWnV-DCIfIYUN5WE",
+    authDomain: "food-9e063.firebaseapp.com",
+    databaseURL: "https://food-9e063.firebaseio.com",
+    projectId: "food-9e063",
+    storageBucket: "food-9e063.appspot.com",
+    messagingSenderId: "221529743570",
+    appId: "1:221529743570:web:f6337ea50815d54e",
+
+  };
+      firebase.initializeApp(config);
 
 @NgModule({
   declarations: [
@@ -29,7 +46,8 @@ import {AngularFirestoreModule} from '@angular/fire/firestore';
     FormComponent,
     OrdersComponent,
     OrdersListComponent,
-    MainMenuComponent
+    MainMenuComponent,
+    NewComponentComponent
   ],
   imports: [
     BrowserModule,
@@ -38,10 +56,11 @@ import {AngularFirestoreModule} from '@angular/fire/firestore';
     BrowserAnimationsModule,
     MaterialModule,
     ReactiveFormsModule,
-    AngularFireModule.initializeApp(environment.configFirebase),
+    //AngularFireModule.initializeApp(environment.firebase),
+    AngularFireModule.initializeApp(config),
     AngularFirestoreModule
   ],
-  providers: [],
+  providers: [ComponentService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

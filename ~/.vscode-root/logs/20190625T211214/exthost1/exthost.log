@@ -1,0 +1,38 @@
+[2019-06-25 21:12:19.542] [exthost] [info] extension host started
+[2019-06-25 21:12:19.946] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-06-25 21:12:19.946] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-06-25 21:12:20.149] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-06-25 21:12:20.149] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-06-25 21:12:20.313] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-06-25 21:12:20.313] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-06-25 21:12:20.731] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-06-25 21:12:20.731] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-06-25 21:12:20.982] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"activationEvent":"*"}
+[2019-06-25 21:12:20.982] [exthost] [info] ExtensionService#loadCommonJSModule /home/fabian/.vscode/extensions/christian-kohler.path-intellisense-1.4.2/out/src/extension
+[2019-06-25 21:12:21.246] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2019-06-25 21:12:21.246] [exthost] [info] ExtensionService#loadCommonJSModule /home/fabian/.vscode/extensions/dbaeumer.vscode-eslint-1.9.0/client/out/extension
+[2019-06-25 21:12:21.314] [exthost] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig {"startup":true,"activationEvent":"*"}
+[2019-06-25 21:12:21.314] [exthost] [info] ExtensionService#loadCommonJSModule /home/fabian/.vscode/extensions/editorconfig.editorconfig-0.13.0/out/src/editorConfigMain
+[2019-06-25 21:12:21.400] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"activationEvent":"*"}
+[2019-06-25 21:12:21.400] [exthost] [info] ExtensionService#loadCommonJSModule /home/fabian/.vscode/extensions/esbenp.prettier-vscode-1.9.0/out/src/extension
+[2019-06-25 21:12:21.901] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2019-06-25 21:12:21.901] [exthost] [info] ExtensionService#loadCommonJSModule /home/fabian/.vscode/extensions/formulahendry.auto-close-tag-0.5.6/out/src/extension
+[2019-06-25 21:12:21.914] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"activationEvent":"*"}
+[2019-06-25 21:12:21.914] [exthost] [info] ExtensionService#loadCommonJSModule /home/fabian/.vscode/extensions/formulahendry.auto-rename-tag-0.1.0/out/src/extension
+[2019-06-25 21:12:21.940] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"activationEvent":"*"}
+[2019-06-25 21:12:21.940] [exthost] [info] ExtensionService#loadCommonJSModule /home/fabian/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2019-06-25 21:12:22.192] [exthost] [info] ExtensionService#_doActivateExtension infinity1207.angular2-switcher {"startup":true,"activationEvent":"*"}
+[2019-06-25 21:12:22.192] [exthost] [info] ExtensionService#loadCommonJSModule /home/fabian/.vscode/extensions/infinity1207.angular2-switcher-0.2.0/out/src/extension
+[2019-06-25 21:12:22.197] [exthost] [info] ExtensionService#_doActivateExtension ionutvmi.path-autocomplete {"startup":true,"activationEvent":"*"}
+[2019-06-25 21:12:22.197] [exthost] [info] ExtensionService#loadCommonJSModule /home/fabian/.vscode/extensions/ionutvmi.path-autocomplete-1.13.3/out/src/extension
+[2019-06-25 21:12:22.296] [exthost] [info] ExtensionService#_doActivateExtension kisstkondoros.vscode-codemetrics {"startup":true,"activationEvent":"*"}
+[2019-06-25 21:12:22.296] [exthost] [info] ExtensionService#loadCommonJSModule /home/fabian/.vscode/extensions/kisstkondoros.vscode-codemetrics-1.19.1/out/src/extension
+[2019-06-25 21:12:25.008] [exthost] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare {"startup":true,"activationEvent":"*"}
+[2019-06-25 21:12:25.008] [exthost] [info] ExtensionService#loadCommonJSModule /home/fabian/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.471/out/prod/extension-prod
+[2019-06-25 21:12:25.833] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2019-06-25 21:12:25.833] [exthost] [info] ExtensionService#loadCommonJSModule /home/fabian/.vscode/extensions/pkief.material-icon-theme-3.8.0/dist/extension
+[2019-06-25 21:12:25.870] [exthost] [info] ExtensionService#_doActivateExtension Shan.code-settings-sync {"startup":true,"activationEvent":"*"}
+[2019-06-25 21:12:25.870] [exthost] [info] ExtensionService#loadCommonJSModule /home/fabian/.vscode/extensions/shan.code-settings-sync-3.2.9/out/extension.js
+[2019-06-25 21:12:26.018] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons {"startup":true,"activationEvent":"*"}
+[2019-06-25 21:12:26.018] [exthost] [info] ExtensionService#loadCommonJSModule /home/fabian/.vscode/extensions/vscode-icons-team.vscode-icons-8.8.0/out/src/
+[2019-06-25 21:12:26.300] [exthost] [info] eager extensions activated
