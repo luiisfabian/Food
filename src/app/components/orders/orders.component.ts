@@ -1,4 +1,3 @@
-import { FormGroup } from "@angular/forms";
 import { OrdersService } from "./../../shated/services/orders.service";
 import { Component, OnInit } from "@angular/core";
 @Component({
@@ -41,7 +40,7 @@ export class OrdersComponent implements OnInit {
   ngOnInit() {}
   addProduct(product) {
     console.log(product);
-    this.totalPrice = this.totalPrice + product.price;
+    this.totalPrice = (this.totalPrice + product.price);
     this.arrayTempProducts.push(product.name);
   }
 
@@ -53,8 +52,10 @@ export class OrdersComponent implements OnInit {
   onSubmit() {
     console.log(this.ordersService.myForm.value);
     this.ordersService.myForm.value.order = this.arrayTempProducts;
-    let data = this.ordersService.myForm.value.order;
+    let data = this.ordersService.myForm.value;
     console.log(data);
+    data.totalOrder = this.totalPrice;
+
     //llamada al servicio
 
     this.ordersService.createOrder(data);

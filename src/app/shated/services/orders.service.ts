@@ -13,7 +13,7 @@ orders : Observable<any[]>;
 
   constructor( private readonly afs: AngularFirestore ) {
     this.orderscollection = afs.collection<any>('orders');
-    this.orders= this.orderscollection.snapshotChanges().pipe(map(
+    this.orders = this.orderscollection.snapshotChanges().pipe(map(
       action => action.map(a=> {
         const data  = a.payload.doc.data() as any;
         const id = a.payload.doc.id;

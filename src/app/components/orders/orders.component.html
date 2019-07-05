@@ -7,7 +7,7 @@
   <button mat-raised-button color="primary" (click)="addProduct(product)" class="myButton" *ngFor="let product of products" >
     {{product.name}}    {{product.price}}
   </button>
-  <form method="get" [formGroup]="this.ordersService.myForm" (ngSubmit)="onSubmit()" >
+  <form [formGroup]="this.ordersService.myForm" (ngSubmit)="onSubmit()" >
      <table class="table table-light">
 
         <tr>
