@@ -43,7 +43,6 @@ export class OrdersComponent implements OnInit {
     this.totalPrice = (this.totalPrice + product.price);
     this.arrayTempProducts.push(product.name);
   }
-
   deleteorderTemp = order => {
     let index = this.arrayTempProducts.indexOf(order);
     if (index > -1) this.arrayTempProducts.splice(index, 1);
