@@ -62,4 +62,7 @@ export class OrdersComponent implements OnInit {
     this.totalPrice = 0;
     this.ordersService.myForm.reset();
   }
+
+
+
 }
