@@ -48,7 +48,7 @@ export class OrdersListComponent implements OnInit {
     });
   }
 
-  onChangeStatus(order: any){
+  onChangeStatus(order: any) {
     order.completed = true;
     this.ordersService.updateOrders(order);
   }

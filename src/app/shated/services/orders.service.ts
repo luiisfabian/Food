@@ -32,19 +32,19 @@ orders : Observable<any[]>;
 
   });
 
-  getOrders(){
+  getOrders() {
     return this.orders;
   }
 
-  updateOrders(order: any){
+  updateOrders(order: any) {
     return this.orderscollection.doc(order.id).update(order);
   }
 
-  deleteOrders(id: string){
+  deleteOrders(id: string) {
     return this.orderscollection.doc(id).delete();
   }
 
-  createOrder(order: string){
+  createOrder(order: string) {
     return this.orderscollection.add(order);
   }
 
